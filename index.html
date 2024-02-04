@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Delete Account</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f5f5f5;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+			}
+
+			.container {
+				background-color: #fff;
+				border-radius: 8px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				padding: 20px;
+				text-align: left;
+				margin: 20px;
+			}
+
+			h1 {
+				color: #333;
+			}
+
+			p {
+				color: #666;
+			}
+
+			.icon {
+				font-size: 40px;
+				margin-bottom: 20px;
+                width:180px;
+			}
+
+			.instructions {
+				color: #414141;
+				margin-top: 20px;
+			}
+
+			.note {
+				color: #cc0000;
+				margin-top: 20px;
+			}
+			.instructions > ol {
+				height: 120px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+			}
+		</style>
+	</head>
+	<body>
+		<div
+			style="
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+			"
+		>
+			<div class="container">
+				<div class="icon"><img src="adaptive-icon.png" style="width: 100%" /></div>
+				<h1>Delete Your Account</h1>
+				<p>To delete your Afromart account, please follow these steps:</p>
+				<div class="instructions">
+					<ol>
+						<li>Open afromart app</li>
+						<li>Go to the "Account" tab</li>
+						<li>Click on the "Delete Account" tab</li>
+						<li>
+							On the next screen, read the disclaimer and click on delete.
+						</li>
+					</ol>
+				</div>
+				<p class="note">
+					Note: This action is going to remove all of your personal information
+					from our systems.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
